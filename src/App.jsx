@@ -1,6 +1,6 @@
 
 import './App.css'
-import SimpleForm from './simple-form/SimpleForm'
+import StateFullForm from './simple-form/stateform/StateFullForm'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <div>
           <h1>Simple form submission</h1>
-          <SimpleForm></SimpleForm>
+          <StateFullForm></StateFullForm>
       </div>
     </>
   )
