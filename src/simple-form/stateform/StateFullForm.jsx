@@ -5,6 +5,8 @@ const StateFullForm = () => {
     const [email, setEmail] = useState(null);
     const [password, setPassword] = useState(null);
 
+
+
     const handleSubmit = e => {
         e.preventDefault();
         console.log(name, email, password);
@@ -22,6 +24,7 @@ const StateFullForm = () => {
         setPassword(e.target.value);
     }
 
+    
     return (
         <div>
             <form onSubmit={handleSubmit}>
